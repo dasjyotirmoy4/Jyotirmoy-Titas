@@ -190,7 +190,7 @@ document.addEventListener('visibilitychange',function(){
   if(!AU||muted)return;
   if(document.hidden)AU.pause();else{var p=AU.play();if(p&&p.catch)p.catch(function(){})}
 });
-var RSVP_NUMBER='919876543210'; // <-- REPLACE: WhatsApp number with country code, digits only (no + or spaces)
+var RSVP_NUMBER='917003772572'; // <-- REPLACE: WhatsApp number with country code, digits only (no + or spaces)
 var RSVP_MSG='Hello! I would love to join Jyotirmoy & Titas\'s wedding reception on Friday, 20 November 2026, 7 PM onwards.\n\nName: \nNumber of guests: ';
 (function(){var a=document.getElementById('rsvp');a.href='https://wa.me/'+RSVP_NUMBER+'?text='+encodeURIComponent(RSVP_MSG);a.target='_blank';a.rel='noopener'})();
 var N=7,cur=0,timer,times=[0,7000,7000,6500,6500,6000,0],started=false,dots=document.getElementById('dots');
